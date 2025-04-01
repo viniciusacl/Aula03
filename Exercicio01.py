@@ -1,5 +1,5 @@
 nome = input("Insira o seu Nome: ")
-idade = input("Digite a sua Idade: ")
+idade = int(input("Digite a sua Idade: "))
 salario =  float(input("Informe seu Salario: "))
 
 
@@ -10,4 +10,3 @@ aumento = salario * (percentual/100)
 aumento = aumento + salario
 
 print(f"{nome}, você teve um aumento de {aumento} R$ ")
-
